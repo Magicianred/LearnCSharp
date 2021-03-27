@@ -18,9 +18,17 @@ namespace LearnCSharp
             // Console.ReadKey(true); // This leaves it open until a key is pressed
 
             // VARIABLES
-            string animal = "Goose";
-            int actual = 1, ideal = 5;
-            Console.WriteLine($"{Environment.NewLine}I have {actual} {animal}, but I'd love to have {ideal}");
+            // string animal = "Goose";
+            // int actual = 1, ideal = 5;
+            // Console.WriteLine($"{Environment.NewLine}I have {actual} {animal}, but I'd love to have {ideal}");
+
+            // USER INPUT
+            Console.WriteLine("What's your favorite food?");
+            string food = Console.ReadLine();
+            Console.WriteLine("Yummy! I love " + food + " too!");
+
+            // IF STATEMENTS 
+            // password
         }
     }
 }

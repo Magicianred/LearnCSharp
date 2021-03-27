@@ -44,3 +44,6 @@ A couple things to note:
 
 To make an int a string, use `Convert.ToString(IntVariableHere)`
 
+### Taking in User Input
+Use `Console.ReadLine()` to take in a value, don't forget to assign it to a variable!
+
