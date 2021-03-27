@@ -42,3 +42,5 @@ A couple things to note:
 * `bool` stores true or false
 * `const` isn't a type, but a great way to protect your variable from getting changed in the future
 
+To make an int a string, use `Convert.ToString(IntVariableHere)`
+
