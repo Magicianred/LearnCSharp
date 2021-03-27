@@ -79,3 +79,12 @@ for (initial; condition; iterator) {
   code
 }
 ```
+
+### Challenge
+1. Set up a simple chat bot for your local restaurant
+1. Ask for their food order and save that as a string "food"
+1. Ask for their drink order and save that as a string "drink"
+1. If they want water, ask if they want a lemon with that and save that value as a boolean "lemon"
+1. No matter the drink, ask if they want ice and save that as a boolean named "ice"
+1. Ask them how much they want to tip you. Should you use double or int or string?
+1. Print all of that out in a readable message!
