@@ -23,12 +23,22 @@ namespace LearnCSharp
             // Console.WriteLine($"{Environment.NewLine}I have {actual} {animal}, but I'd love to have {ideal}");
 
             // USER INPUT
-            Console.WriteLine("What's your favorite food?");
-            string food = Console.ReadLine();
-            Console.WriteLine("Yummy! I love " + food + " too!");
+            // Console.WriteLine("What's your favorite food?");
+            // string food = Console.ReadLine();
+            // Console.WriteLine("Yummy! I love " + food + " too!");
 
             // IF STATEMENTS 
-            // password
+            Console.WriteLine("What's your password?");
+            Console.Write(">> ");
+            string password = Console.ReadLine();
+            if (password == "password") {
+                Console.WriteLine("Well, that's not very secure, huh");
+            } else if (password.Length < 8) {
+                Console.WriteLine("Your password is way too short!");
+            } else {
+                Console.WriteLine("Your password looks pretty good to me!");
+            }
+            
         }
     }
 }
