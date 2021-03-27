@@ -60,3 +60,22 @@ if (condition) {
 }
 ```
 
+### Loops
+
+**While Loops**
+
+```
+while (condition) {
+  code
+}
+```
+
+As with all while loops, make sure that it gets terminated so you don't end up with an infinite while loop!
+
+**For Loops**
+
+```
+for (initial; condition; iterator) {
+  code
+}
+```

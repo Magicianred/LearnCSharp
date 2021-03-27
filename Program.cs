@@ -28,17 +28,29 @@ namespace LearnCSharp
             // Console.WriteLine("Yummy! I love " + food + " too!");
 
             // IF STATEMENTS 
-            Console.WriteLine("What's your password?");
-            Console.Write(">> ");
-            string password = Console.ReadLine();
-            if (password == "password") {
-                Console.WriteLine("Well, that's not very secure, huh");
-            } else if (password.Length < 8) {
-                Console.WriteLine("Your password is way too short!");
-            } else {
-                Console.WriteLine("Your password looks pretty good to me!");
+            // Console.WriteLine("What's your password?");
+            // Console.Write(">> ");
+            // string password = Console.ReadLine();
+            // if (password == "password") {
+            //     Console.WriteLine("Well, that's not very secure, huh");
+            // } else if (password.Length < 8) {
+            //     Console.WriteLine("Your password is way too short!");
+            // } else {
+            //     Console.WriteLine("Your password looks pretty good to me!");
+            // }
+
+            // LOOPS
+            int i = 0;
+            while (i < 5) {
+                Console.Write("While:  ");
+                Console.WriteLine(i);
+                i++;
             }
             
+            for (int j = 4; j >= 0; j--) {
+                Console.Write("For:  ");
+                Console.WriteLine(j);
+            }
         }
     }
 }
