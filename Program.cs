@@ -16,6 +16,11 @@ namespace LearnCSharp
             // Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {date:d} at {date:t}!"); // The $ lets you use variable names in {}, similar to JavaScript!
             // Console.Write($"{Environment.NewLine}Press any key to exit...");
             // Console.ReadKey(true); // This leaves it open until a key is pressed
+
+            // VARIABLES
+            string animal = "Goose";
+            int actual = 1, ideal = 5;
+            Console.WriteLine($"{Environment.NewLine}I have {actual} {animal}, but I'd love to have {ideal}");
         }
     }
 }
